@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch & Style - Modern Apparel</title>
+    <meta name="description" content="Discover modern, stylish apparel for a sophisticated look. Shop our latest collections.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-content container">
+            <a href="#" class="logo">
+                <i class="fas fa-store"></i>
+                <h1>Stitch & Style</h1>
+            </a>
+            
+            <nav class="main-nav" aria-label="Main Navigation">
+                <a href="#shop">Shop</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#newsletter">Newsletter</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="icon-btn cart-btn" aria-label="View Cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="icon-btn mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Your Style, Your Statement.</h2>
+            <p>Explore our curated collection of contemporary fashion designed for effortless elegance and comfort.</p>
+            <a href="#shop" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="products-section container" id="shop">
+        <div class="section-header">
+            <h3>Our Latest Collection</h3>
+            <div class="filter-buttons" role="group" aria-label="Filter Clothing">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="shirt">Shirts</button>
+                <button class="filter-btn" data-filter="pants">Pants</button>
+                <button class="filter-btn" data-filter="dress">Dresses</button>
+            </div>
+        </div>
+        <div class="products-grid" id="products-grid">
+            </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-content container">
+            <div class="about-image">
+                <img src="https://via.placeholder.com/600x400" alt="About us image" loading="lazy">
+            </div>
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>Stitch & Style was born from a passion for quality and timeless design. We believe that fashion should be an expression of individuality and confidence. Our mission is to provide apparel that not only looks great but also feels great, using sustainable materials and ethical practices.</p>
+                <p>We work with talented designers and artisans to create unique pieces that stand the test of time, blending classic aesthetics with modern trends. Every item is crafted with attention to detail and a commitment to excellence.</p>
+                <a href="#contact" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-content container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Have a question or need assistance? Feel free to reach out to us. We're here to help!</p>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>456 Fashion Blvd, Style City, 12345</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@stitchandstyle.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+1 7493 6485</span>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+                <div id="form-status"></div>
+            </div>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2104192809277!2d144.9630576153163!3d-37.81627917975116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642baf8f2c3d5%3A0x504567530e38650!2sFlinders%20St%20Station!5e0!3m2!1sen!2sau!4v1628170845348!5m2!1sen!2sau" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-section logo-section">
+                <h4>Stitch & Style</h4>
+                <p>Redefining fashion, one stitch at a time.  </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#">Lookbook</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter-section" id="newsletter">
+                <h4>Join Our Newsletter</h4>
+                <p>Get exclusive offers and the latest news directly in your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 Stitch & Style. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="productTitle">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="productTitle">Product Title</h3>
+                <button class="modal-close" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="Clothing image">
+                </div>
+                <div class="modal-details">
+                    <div class="modal-price-section">
+                        <span class="modal-price">0</span>
+                        <span class="modal-category">Category</span>
+                    </div>
+                    <p class="modal-description">Product description will appear here.</p>
+                    <div class="modal-specs" id="modal-specs">
+                        </div>
+                    <div class="modal-actions">
+                        <button class="btn btn-add-to-cart">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                        <button class="btn btn-save">
+                            <i class="fas fa-heart"></i> Save
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
