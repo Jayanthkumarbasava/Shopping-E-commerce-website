@@ -3,7 +3,7 @@
 
 A modern, responsive fashion e-commerce landing page showcasing apparel collections with interactive product browsing, filtering, and a shopping cart feature.  
 
-![Preview Screenshot](https://ibb.co/VYM0QFCZ) <!-- replace with actual screenshot path -->
+![Preview Screenshot](./e-commerese.png) <!-- replace with actual screenshot path -->
 
 ---
 
